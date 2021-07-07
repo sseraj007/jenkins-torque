@@ -66,7 +66,7 @@ Jenkins Blueprint has the following list of input parameters:
 
 * `BUCKET_NAME` - name of the S3 bucket connected to the space you created for artifacts.
 
-![params](https://user-images.githubusercontent.com/8643801/95510076-0ce98980-09be-11eb-8d89-a4d588674da8.PNG)
+![params](https://user-images.githubusercontent.com/76521367/124804434-f713ef80-df62-11eb-91d0-b9f8854f656c.PNG)
 
 ### Demo pipeline
 
