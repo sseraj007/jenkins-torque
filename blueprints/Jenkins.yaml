@@ -11,11 +11,11 @@ inputs:
   - AWS_INSTANCE_TYPE:
       default_value: m5.large
       
-  - CS_COLONY_TOKEN:
+  - CS_TORQUE_TOKEN:
       display_style: masked
       description: >
         Open the Settings page and click the Integrations tab. Under the Jenkins
-        Pipeline icon, click Connect. In the Connect Colony to your Jenkins Pipeline.
+        Pipeline icon, click Connect. In the Connect Torque to your Jenkins Pipeline.
         Copy the automatically generated token.
   - SPACE_NAME:
 
@@ -37,7 +37,7 @@ applications:
   - jenkins:
       input_values:
         - AWS_INSTANCE_TYPE: $AWS_INSTANCE_TYPE
-        - CS_COLONY_TOKEN: $CS_COLONY_TOKEN
+        - CS_TORQUE_TOKEN: $CS_COLONY_TOKEN
         - SPACE_NAME: $SPACE_NAME
         - JENKINS_ADMIN_PASS: $JENKINS_ADMIN_PASS
         - IAM_ROLE: $IAM_ROLE
