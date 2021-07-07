@@ -37,7 +37,7 @@ applications:
   - jenkins:
       input_values:
         - AWS_INSTANCE_TYPE: $AWS_INSTANCE_TYPE
-        - CS_TORQUE_TOKEN: $CS_COLONY_TOKEN
+        - CS_TORQUE_TOKEN: $CS_TORQUE_TOKEN
         - SPACE_NAME: $SPACE_NAME
         - JENKINS_ADMIN_PASS: $JENKINS_ADMIN_PASS
         - IAM_ROLE: $IAM_ROLE
