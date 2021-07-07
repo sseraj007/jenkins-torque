@@ -42,7 +42,7 @@ sed -i "s/%SPACE%/${SPACE_NAME}/g" ${WORKDIR}/master/config.xml
 sed -i "s/%BUCKET_NAME%/${BUCKET_NAME}/g" ${WORKDIR}/master/config.xml
 
 echo "==> Preparing a CasC config"
-sed -i "s|%TOKEN%|${CS_COLONY_TOKEN}|g" ${WORKDIR}/master/jenkins.yaml
+sed -i "s|%TOKEN%|${CS_TORQUE_TOKEN}|g" ${WORKDIR}/master/jenkins.yaml
 
 echo "==> Downloading a plugin file"
 wget --no-check-certificate ${COLONY_PLUGIN_URL} -O ${WORKDIR}/master/colony.hpi
