@@ -66,7 +66,7 @@ Jenkins Blueprint has the following list of input parameters:
 
 * `BUCKET_NAME` - name of the S3 bucket connected to the space you created for artifacts.
 
-![params](https://user-images.githubusercontent.com/76521367/124804434-f713ef80-df62-11eb-91d0-b9f8854f656c.PNG)
+![sandbox](https://user-images.githubusercontent.com/76521367/124804434-f713ef80-df62-11eb-91d0-b9f8854f656c.PNG)
 
 ### Demo pipeline
 
@@ -74,7 +74,7 @@ After sandbox deployment, you can log into Jenkins using **Quick Link**.
 
 ![quick_link](https://user-images.githubusercontent.com/8643801/96999652-2f42e180-153e-11eb-8bdc-4eada85136eb.png)
 
-n Jenkins, you should see a predefined pipeline configured to run a Promotions Manager blueprint in your Torque space.
+In Jenkins, you should see a predefined pipeline configured to run a Promotions Manager blueprint in your Torque space.
 
 ![jenkins](https://user-images.githubusercontent.com/8643801/96999412-c8bdc380-153d-11eb-96e0-3bd4be4e6816.png)
 
