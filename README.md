@@ -56,7 +56,7 @@ Jenkins Blueprint has the following list of input parameters:
 
 * `JENKINS_ADMIN_PASS` - set the password you will use when logging in to Jenkins with the admin user. Default is `admin`.
 
-* `CS_COLONY_TOKEN` - token that Jenkins will use to communicate with Torque. You can generate it on the **Settings** > **Integrations** page.
+* `CS_TORQUE_TOKEN` - token that Jenkins will use to communicate with Torque. You can generate it on the **Settings** > **Integrations** page.
 
 * `IAM_ROLE` - IAM role instance profile name you previously created.
 
@@ -66,7 +66,7 @@ Jenkins Blueprint has the following list of input parameters:
 
 * `BUCKET_NAME` - name of the S3 bucket connected to the space you created for artifacts.
 
-![sandbox](https://user-images.githubusercontent.com/76521367/124804434-f713ef80-df62-11eb-91d0-b9f8854f656c.PNG)
+![params](https://user-images.githubusercontent.com/76521367/124805133-c84a4900-df63-11eb-89eb-7b0630b3d967.PNG)
 
 ### Demo pipeline
 
