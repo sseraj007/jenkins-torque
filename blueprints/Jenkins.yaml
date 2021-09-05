@@ -5,7 +5,7 @@ metadata:
   description: Blueprint that deploys Jenkins in AWS
 
 clouds:
-  - AWS: us-west-1
+  - AWS 2 : us-west-1
 
 inputs:
   - AWS_INSTANCE_TYPE:
