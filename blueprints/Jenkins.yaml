@@ -5,11 +5,11 @@ metadata:
   description: Blueprint that deploys Jenkins in AWS
 
 clouds:
-  - AWS: us-west-1
+  - AWS: us-east-1
 
 inputs:
   - AWS_INSTANCE_TYPE:
-      default_value: m5.large
+      default_value: t2.micro
       
   - CS_TORQUE_TOKEN:
       display_style: masked
