@@ -5,8 +5,9 @@ echo '=============== Staring init script for Secrets Manager API ==============
 printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
 
 echo '==> Installing Apache'
-yum install httpd
-systemctl start httpd
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
 
 
 echo '==> Extract api artifact to /var/secrets-manager-api'
