@@ -13,9 +13,12 @@ source:
   os_type: linux
   image:
     ami:
+      - id: ami-0b33356b362c56df5
+        region: us-west-1
+        username: ubuntu
       - id: ami-04d064705dc850ddd
         region: us-east-1
-        username: jenkins
+        username: ubuntu
 
 infrastructure:
   compute:
