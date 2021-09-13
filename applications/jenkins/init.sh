@@ -7,6 +7,11 @@ COLONY_PLUGIN_URL="https://github.com/cloudshell-colony/jenkins-plugin/releases/
 set -o errexit
 set -o nounset
 
+# Installing .net SDK and Runtime
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
 echo "==> Starting deployment"
 
 # Docker
