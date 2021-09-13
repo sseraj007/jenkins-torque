@@ -4,9 +4,10 @@ echo '=============== Staring init script for Secrets Manager API ==============
 # save all env for debugging
 printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
 
-echo '==> Installing Node.js and NPM'
-sudo apt-get update
-sudo apt install curl -y
+echo '==> Installing Apache'
+yum install httpd
+systemctl start httpd
+
 
 echo '==> Extract api artifact to /var/secrets-manager-api'
 mkdir $ARTIFACTS_PATH/drop
