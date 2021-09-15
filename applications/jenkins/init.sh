@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DOCKERFILE_REPO="https://github.com/QualiSystemsLab/torque-jenkins-dockerized.git"
+DOCKERFILE_REPO="https://github.com/sseraj007/torque-jenkins-dockerized.git"
 DOCKER_COMPOSE_VER="1.26.2"
 WORKDIR="/tmp/jenkins"
 COLONY_PLUGIN_URL="https://github.com/cloudshell-colony/jenkins-plugin/releases/latest/download/colony.hpi"
